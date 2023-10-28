@@ -8,7 +8,7 @@ Jinja2
 joblib==1.3.2
 MarkupSafe
 numpy
-scikit-learn==1.2.2
+scikit-learn
 scipy
 threadpoolctl
 werkzeug

@@ -25,7 +25,7 @@ def predict():
     # Convert the prediction to a JSON response
     output = 'positive' if prediction[0] == 1 else 'negative'
     
-    return render_template('index.html', prediction_text='The sentiment of the review is {}'.format(output))
+    return render_template('index.html', prediction_text='The Restaurant review was {}'.format(output))
 
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

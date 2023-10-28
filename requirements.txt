@@ -1,0 +1,17 @@
+blinker
+click
+colorama
+flask
+importlib-metadata
+itsdangerous
+Jinja2
+joblib==1.3.2
+MarkupSafe
+numpy
+scikit-learn==1.2.2
+scipy
+threadpoolctl
+werkzeug
+zipp
+gunicorn
+
